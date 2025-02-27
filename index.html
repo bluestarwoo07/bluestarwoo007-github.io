@@ -7,17 +7,42 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #1e1e2f;
+            color: white;
+        }
+        .header {
+            background-color: #2c2c54;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #f4c542;
+        }
+        .nav {
+            background-color: #3a3a66;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
         }
         .container {
             width: 80%;
             margin: auto;
             padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: #2e2e4d;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        .section {
+            margin-bottom: 50px;
+            padding: 20px;
+            border-bottom: 2px solid #444;
         }
         img {
             width: 80%;
@@ -25,78 +50,53 @@
             border-radius: 10px;
             margin-top: 20px;
         }
-        .section {
-            margin-bottom: 50px;
-            padding: 20px;
-            border-bottom: 2px solid #ddd;
-        }
         .footer {
-            background-color: #333;
+            background-color: #2c2c54;
             color: white;
+            text-align: center;
             padding: 20px;
             margin-top: 50px;
         }
         .footer a {
-            color: #f4f4f4;
+            color: #f4c542;
             text-decoration: none;
         }
     </style>
 </head>
 <body>
+    <div class="header">
+        ExperienceBridge: Connecting Experience to the Future
+    </div>
+    <div class="nav">
+        <a href="#problem">문제 인식</a>
+        <a href="#strategy">사업 전략</a>
+        <a href="#market">시장 진입</a>
+        <a href="#customers">고객 분석</a>
+        <a href="#contact">문의하기</a>
+    </div>
     <div class="container">
-        <h1>경험을 미래로 잇다</h1>
-        <h2>Connecting Experience to the Future</h2>
-        <h3>ExperienceBridge</h3>
-        
-        <div class="section">
-            <img src="https://bluestarwoo07.github.io/images/main_image.png" alt="Experience Bridge Main">
-           
+        <div id="problem" class="section">
+            <h1>문제 인식과 창업배경</h1>
+            <img src="https://bluestarwoo07.github.io/images/problem_background.png" alt="창업배경">
         </div>
-        
-        <div class="section">
-            <h1>문제인식과 창업배경</h1>
-            <img src="https://bluestarwoo07.github.io/images/problem_background.png" alt="창업배경 이미지">
-            <img src="https://bluestarwoo07.github.io/images/problem_background2.png" alt="창업배경 이미지">
-         
-        </div>
-        
-        <div class="section">
+        <div id="strategy" class="section">
             <h1>사업화 전략</h1>
-            <img src="https://bluestarwoo07.github.io/images/business_strategy.png" alt="사업화 전략 이미지">
-           
+            <img src="https://bluestarwoo07.github.io/images/business_strategy.png" alt="사업화 전략">
         </div>
-        
-        <div class="section">
+        <div id="market" class="section">
             <h1>시장 진입 전략</h1>
             <img src="https://bluestarwoo07.github.io/images/market_entry.png" alt="시장 진입 전략">
-           
         </div>
-        
-        <div class="section">
+        <div id="customers" class="section">
             <h1>고객 분석</h1>
             <img src="https://bluestarwoo07.github.io/images/customer_analysis.png" alt="고객 분석">
-          
-        </div>
-        
-        <div class="section">
-            <h1>판매 전략</h1>
-            <img src="https://bluestarwoo07.github.io/images/sales_strategy.png" alt="판매 전략">
-           
-        </div>
-        
-        <div class="section">
-            <h1>마케팅 전략</h1>
-            <img src="https://bluestarwoo07.github.io/images/marketing_strategy.png" alt="마케팅 전략">
-        
         </div>
     </div>
-    
-    <div class="footer">
+    <div id="contact" class="footer">
         <h3>회사 소개</h3>
         <p>Experience Bridge는 시니어와 청년을 연결하는 혁신적인 플랫폼입니다.</p>
         <p><strong>연락처:</strong> contact@experiencebridge.com</p>
         <p><strong>전화번호:</strong> +82 10-9041-7866</p>
-        <p><strong>주소:</strong> 서울특별시 강동구 상암로 79길 88 </p>
         <p><a href="mailto:contact@experiencebridge.com">이메일 보내기</a></p>
     </div>
 </body>
